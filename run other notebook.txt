@@ -1,0 +1,4 @@
+%run notebookName.ipynb
+
+all vals from notebookname are noew in new notebook
+x = 10 f.eks

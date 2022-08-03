@@ -1,0 +1,10 @@
+create macros.txt
+	- new file
+	- or cmd: doskey /macros > C:\path\macros.txt
+
+add lines:
+	- alias = command
+	- ex.: cdsc = cd C:\Github\smart_code
+
+Use $* when parsing arguments:
+split=C:\Github\smart_code\split.py $*
