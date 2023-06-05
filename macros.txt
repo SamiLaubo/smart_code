@@ -2,4 +2,6 @@ conda="C:\ProgramData\Anaconda3\condabin\conda.bat" $*
 cdsc=cd C:\Github\smart_code $*
 merge=C:\Github\smart_code\merge.py $*
 split=C:\Github\smart_code\split_pdf.py $*
-
+p=python -m $*
+autoviz=conda activate autoparty $T python "C:\GitHub\LED\AutoViz\AutoViz.py" $*
+np=prompt $^g
